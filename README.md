@@ -8,7 +8,7 @@
 
 ## Usage:
 ````bash
-docker run --rm -it kanti/lighthouse lighthouse-ci <url>
+docker run --rm -it kanti/lighthouse-ci lighthouse-ci <url>
 ````
 
 ## Commandline Optinos:
@@ -16,14 +16,14 @@ docker run --rm -it kanti/lighthouse lighthouse-ci <url>
   CLI implementation for running Lighthouse with any CI tool
 
   Usage
-    $ docker run --rm -it kanti/lighthouse lighthouse-ci <target-url>
+    $ docker run --rm -it kanti/lighthouse-ci lighthouse-ci <target-url>
 
   Example
-    $ docker run --rm -it kanti/lighthouse lighthouse-ci https://example.com/
-    $ docker run --rm -it kanti/lighthouse lighthouse-ci -s https://example.com/
-    $ docker run --rm -it kanti/lighthouse lighthouse-ci https://example.com/ --score=75
-    $ docker run --rm -it kanti/lighthouse lighthouse-ci https://example.com/ --accessibility=90 --seo=80
-    $ docker run --rm -it kanti/lighthouse lighthouse-ci https://example.com/ --accessibility=90 --seo=80 --report=folder
+    $ docker run --rm -it kanti/lighthouse-ci lighthouse-ci https://example.com/
+    $ docker run --rm -it kanti/lighthouse-ci lighthouse-ci -s https://example.com/
+    $ docker run --rm -it kanti/lighthouse-ci lighthouse-ci https://example.com/ --score=75
+    $ docker run --rm -it kanti/lighthouse-ci lighthouse-ci https://example.com/ --accessibility=90 --seo=80
+    $ docker run --rm -it kanti/lighthouse-ci lighthouse-ci https://example.com/ --accessibility=90 --seo=80 --report=folder
 
   Options
     -s, --silent                  Run Lighthouse without printing report log.
