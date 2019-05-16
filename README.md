@@ -11,7 +11,14 @@
 docker run --rm -it kanti/lighthouse-ci lighthouse-ci <url>
 ````
 
-## Commandline Optinos:
+## Warmup the caches:
+````bash
+docker run --rm -it kanti/lighthouse-ci curl --fail <url>
+docker run --rm -it kanti/lighthouse-ci lighthouse-ci <url>
+````
+
+
+## Commandline Options:
 ````bash
   CLI implementation for running Lighthouse with any CI tool
 
